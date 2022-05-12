@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71E66E0556CD63C00B0C734A /* Pods_digiskyTeam1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86987479B557E69C09F1EE47 /* Pods_digiskyTeam1.framework */; };
+		A0E8D1CE28233E7A005DCEB4 /* BusquedaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1CD28233E7A005DCEB4 /* BusquedaViewController.swift */; };
+		A0E8D1D0282349AD005DCEB4 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1CF282349AD005DCEB4 /* InfoTableViewCell.swift */; };
+		A0E8D1D228235562005DCEB4 /* InfoRiegoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1D128235562005DCEB4 /* InfoRiegoTableViewController.swift */; };
+		A0E8D1D428236535005DCEB4 /* InfoSiembraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1D328236535005DCEB4 /* InfoSiembraTableViewController.swift */; };
+		A0E8D1D728236B15005DCEB4 /* AddEditFertilizacionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1D628236B15005DCEB4 /* AddEditFertilizacionTableViewController.swift */; };
+		A0E8D1D928236CB9005DCEB4 /* Fertilizacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1D828236CB9005DCEB4 /* Fertilizacion.swift */; };
+		A0E8D1DB28236DA7005DCEB4 /* FertilizacionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1DA28236DA7005DCEB4 /* FertilizacionTableViewController.swift */; };
+		A0E8D1DD28236DED005DCEB4 /* FertilizacionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1DC28236DED005DCEB4 /* FertilizacionTableViewCell.swift */; };
+		A0E8D1DF28236FEB005DCEB4 /* InfoFertilizacionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8D1DE28236FEB005DCEB4 /* InfoFertilizacionTableViewController.swift */; };
+		FE07CB63281FC4DC007856B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE07CB62281FC4DC007856B8 /* GoogleService-Info.plist */; };
+		FE07CB67281FCA2B007856B8 /* AddEditRiegoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07CB66281FCA2B007856B8 /* AddEditRiegoTableViewController.swift */; };
+		FE07CB6F281FCCCC007856B8 /* RiegoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07CB6E281FCCCC007856B8 /* RiegoTableViewController.swift */; };
+		FE07CB71281FCD59007856B8 /* Riego.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07CB70281FCD59007856B8 /* Riego.swift */; };
+		FE07CB73281FCDFD007856B8 /* RiegoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07CB72281FCDFD007856B8 /* RiegoTableViewCell.swift */; };
+		FE0F44C8282390EF007527C1 /* LogOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0F44C7282390EF007527C1 /* LogOutViewController.swift */; };
+		FE3B55B92822538A0096107E /* SiembraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B55B82822538A0096107E /* SiembraTableViewController.swift */; };
+		FE3B55BB2822542C0096107E /* SiembraTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B55BA2822542C0096107E /* SiembraTableViewCell.swift */; };
+		FE3B55BF282254730096107E /* AddEditSiembraTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B55BE282254730096107E /* AddEditSiembraTableViewController.swift */; };
+		FE3B55C12822549F0096107E /* Siembra.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3B55C02822549F0096107E /* Siembra.swift */; };
+		FE61ABC3281B4424000DAB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE61ABC2281B4424000DAB55 /* AppDelegate.swift */; };
+		FE61ABC5281B4424000DAB55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE61ABC4281B4424000DAB55 /* SceneDelegate.swift */; };
+		FE61ABC7281B4424000DAB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE61ABC6281B4424000DAB55 /* ViewController.swift */; };
+		FE61ABCA281B4424000DAB55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE61ABC8281B4424000DAB55 /* Main.storyboard */; };
+		FE61ABCC281B4426000DAB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE61ABCB281B4426000DAB55 /* Assets.xcassets */; };
+		FE61ABCF281B4426000DAB55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE61ABCD281B4426000DAB55 /* LaunchScreen.storyboard */; };
+		FE61ABD7281B4825000DAB55 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE61ABD6281B4825000DAB55 /* WelcomeViewController.swift */; };
+		FE61ABD9281B4841000DAB55 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE61ABD8281B4841000DAB55 /* LogInViewController.swift */; };
+		FE61ABDB281B4851000DAB55 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE61ABDA281B4851000DAB55 /* SignUpViewController.swift */; };
+		FE61ABE5281BAE53000DAB55 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE61ABE4281BAE53000DAB55 /* Information.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DA19CDF67BA2615E2559DFD /* Pods-digiskyTeam1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digiskyTeam1.debug.xcconfig"; path = "Target Support Files/Pods-digiskyTeam1/Pods-digiskyTeam1.debug.xcconfig"; sourceTree = "<group>"; };
+		86987479B557E69C09F1EE47 /* Pods_digiskyTeam1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_digiskyTeam1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924CE449EF7D322B3BC67756 /* Pods-digiskyTeam1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-digiskyTeam1.release.xcconfig"; path = "Target Support Files/Pods-digiskyTeam1/Pods-digiskyTeam1.release.xcconfig"; sourceTree = "<group>"; };
+		A0E8D1CD28233E7A005DCEB4 /* BusquedaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusquedaViewController.swift; sourceTree = "<group>"; };
+		A0E8D1CF282349AD005DCEB4 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		A0E8D1D128235562005DCEB4 /* InfoRiegoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRiegoTableViewController.swift; sourceTree = "<group>"; };
+		A0E8D1D328236535005DCEB4 /* InfoSiembraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoSiembraTableViewController.swift; sourceTree = "<group>"; };
+		A0E8D1D628236B15005DCEB4 /* AddEditFertilizacionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditFertilizacionTableViewController.swift; sourceTree = "<group>"; };
+		A0E8D1D828236CB9005DCEB4 /* Fertilizacion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fertilizacion.swift; sourceTree = "<group>"; };
+		A0E8D1DA28236DA7005DCEB4 /* FertilizacionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FertilizacionTableViewController.swift; sourceTree = "<group>"; };
+		A0E8D1DC28236DED005DCEB4 /* FertilizacionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FertilizacionTableViewCell.swift; sourceTree = "<group>"; };
+		A0E8D1DE28236FEB005DCEB4 /* InfoFertilizacionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoFertilizacionTableViewController.swift; sourceTree = "<group>"; };
+		FE07CB62281FC4DC007856B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FE07CB66281FCA2B007856B8 /* AddEditRiegoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditRiegoTableViewController.swift; sourceTree = "<group>"; };
+		FE07CB6E281FCCCC007856B8 /* RiegoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiegoTableViewController.swift; sourceTree = "<group>"; };
+		FE07CB70281FCD59007856B8 /* Riego.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riego.swift; sourceTree = "<group>"; };
+		FE07CB72281FCDFD007856B8 /* RiegoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiegoTableViewCell.swift; sourceTree = "<group>"; };
+		FE0F44C7282390EF007527C1 /* LogOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutViewController.swift; sourceTree = "<group>"; };
+		FE3B55B82822538A0096107E /* SiembraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiembraTableViewController.swift; sourceTree = "<group>"; };
+		FE3B55BA2822542C0096107E /* SiembraTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiembraTableViewCell.swift; sourceTree = "<group>"; };
+		FE3B55BE282254730096107E /* AddEditSiembraTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditSiembraTableViewController.swift; sourceTree = "<group>"; };
+		FE3B55C02822549F0096107E /* Siembra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Siembra.swift; sourceTree = "<group>"; };
+		FE61ABBF281B4424000DAB55 /* digiskyTeam1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = digiskyTeam1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE61ABC2281B4424000DAB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE61ABC4281B4424000DAB55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE61ABC6281B4424000DAB55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE61ABC9281B4424000DAB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE61ABCB281B4426000DAB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE61ABCE281B4426000DAB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE61ABD0281B4426000DAB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE61ABD6281B4825000DAB55 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		FE61ABD8281B4841000DAB55 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		FE61ABDA281B4851000DAB55 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FE61ABE4281BAE53000DAB55 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE61ABBC281B4424000DAB55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E66E0556CD63C00B0C734A /* Pods_digiskyTeam1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F087FC0CDAD005A4B182800 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86987479B557E69C09F1EE47 /* Pods_digiskyTeam1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0E8D1CC28233E40005DCEB4 /* busquedaSection */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8D1CD28233E7A005DCEB4 /* BusquedaViewController.swift */,
+				A0E8D1CF282349AD005DCEB4 /* InfoTableViewCell.swift */,
+				A0E8D1D128235562005DCEB4 /* InfoRiegoTableViewController.swift */,
+				A0E8D1D328236535005DCEB4 /* InfoSiembraTableViewController.swift */,
+				A0E8D1DE28236FEB005DCEB4 /* InfoFertilizacionTableViewController.swift */,
+			);
+			path = busquedaSection;
+			sourceTree = "<group>";
+		};
+		A0E8D1D528236A5A005DCEB4 /* fertilizacionSection */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8D1D628236B15005DCEB4 /* AddEditFertilizacionTableViewController.swift */,
+				A0E8D1D828236CB9005DCEB4 /* Fertilizacion.swift */,
+				A0E8D1DA28236DA7005DCEB4 /* FertilizacionTableViewController.swift */,
+				A0E8D1DC28236DED005DCEB4 /* FertilizacionTableViewCell.swift */,
+			);
+			path = fertilizacionSection;
+			sourceTree = "<group>";
+		};
+		D76ABFBFADAE6A6F831FA146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DA19CDF67BA2615E2559DFD /* Pods-digiskyTeam1.debug.xcconfig */,
+				924CE449EF7D322B3BC67756 /* Pods-digiskyTeam1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE07CB6D281FCC85007856B8 /* firstViews */ = {
+			isa = PBXGroup;
+			children = (
+				FE0F44C7282390EF007527C1 /* LogOutViewController.swift */,
+				FE61ABD6281B4825000DAB55 /* WelcomeViewController.swift */,
+				FE61ABD8281B4841000DAB55 /* LogInViewController.swift */,
+				FE61ABDA281B4851000DAB55 /* SignUpViewController.swift */,
+			);
+			path = firstViews;
+			sourceTree = "<group>";
+		};
+		FE3B55B7282247D00096107E /* riegoSection */ = {
+			isa = PBXGroup;
+			children = (
+				FE07CB66281FCA2B007856B8 /* AddEditRiegoTableViewController.swift */,
+				FE07CB6E281FCCCC007856B8 /* RiegoTableViewController.swift */,
+				FE07CB72281FCDFD007856B8 /* RiegoTableViewCell.swift */,
+				FE07CB70281FCD59007856B8 /* Riego.swift */,
+			);
+			path = riegoSection;
+			sourceTree = "<group>";
+		};
+		FE3B55C2282254D70096107E /* siembraSection */ = {
+			isa = PBXGroup;
+			children = (
+				FE3B55BE282254730096107E /* AddEditSiembraTableViewController.swift */,
+				FE3B55B82822538A0096107E /* SiembraTableViewController.swift */,
+				FE3B55BA2822542C0096107E /* SiembraTableViewCell.swift */,
+				FE3B55C02822549F0096107E /* Siembra.swift */,
+			);
+			path = siembraSection;
+			sourceTree = "<group>";
+		};
+		FE61ABB6281B4424000DAB55 = {
+			isa = PBXGroup;
+			children = (
+				FE61ABC1281B4424000DAB55 /* digiskyTeam1 */,
+				FE61ABC0281B4424000DAB55 /* Products */,
+				D76ABFBFADAE6A6F831FA146 /* Pods */,
+				1F087FC0CDAD005A4B182800 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE61ABC0281B4424000DAB55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE61ABBF281B4424000DAB55 /* digiskyTeam1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE61ABC1281B4424000DAB55 /* digiskyTeam1 */ = {
+			isa = PBXGroup;
+			children = (
+				FE61ABC2281B4424000DAB55 /* AppDelegate.swift */,
+				FE61ABC4281B4424000DAB55 /* SceneDelegate.swift */,
+				FE61ABC6281B4424000DAB55 /* ViewController.swift */,
+				FE61ABE4281BAE53000DAB55 /* Information.swift */,
+				FE61ABC8281B4424000DAB55 /* Main.storyboard */,
+				FE61ABCB281B4426000DAB55 /* Assets.xcassets */,
+				FE61ABCD281B4426000DAB55 /* LaunchScreen.storyboard */,
+				FE61ABD0281B4426000DAB55 /* Info.plist */,
+				FE07CB62281FC4DC007856B8 /* GoogleService-Info.plist */,
+				A0E8D1D528236A5A005DCEB4 /* fertilizacionSection */,
+				A0E8D1CC28233E40005DCEB4 /* busquedaSection */,
+				FE07CB6D281FCC85007856B8 /* firstViews */,
+				FE3B55B7282247D00096107E /* riegoSection */,
+				FE3B55C2282254D70096107E /* siembraSection */,
+			);
+			path = digiskyTeam1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE61ABBE281B4424000DAB55 /* digiskyTeam1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE61ABD3281B4426000DAB55 /* Build configuration list for PBXNativeTarget "digiskyTeam1" */;
+			buildPhases = (
+				BD56DB606389ECDA4DB297A7 /* [CP] Check Pods Manifest.lock */,
+				FE61ABBB281B4424000DAB55 /* Sources */,
+				FE61ABBC281B4424000DAB55 /* Frameworks */,
+				FE61ABBD281B4424000DAB55 /* Resources */,
+				9F96BC2DA96FD212028833D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = digiskyTeam1;
+			productName = digiskyTeam1;
+			productReference = FE61ABBF281B4424000DAB55 /* digiskyTeam1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE61ABB7281B4424000DAB55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FE61ABBE281B4424000DAB55 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FE61ABBA281B4424000DAB55 /* Build configuration list for PBXProject "digiskyTeam1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE61ABB6281B4424000DAB55;
+			productRefGroup = FE61ABC0281B4424000DAB55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE61ABBE281B4424000DAB55 /* digiskyTeam1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE61ABBD281B4424000DAB55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE61ABCF281B4426000DAB55 /* LaunchScreen.storyboard in Resources */,
+				FE07CB63281FC4DC007856B8 /* GoogleService-Info.plist in Resources */,
+				FE61ABCC281B4426000DAB55 /* Assets.xcassets in Resources */,
+				FE61ABCA281B4424000DAB55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F96BC2DA96FD212028833D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digiskyTeam1/Pods-digiskyTeam1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-digiskyTeam1/Pods-digiskyTeam1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-digiskyTeam1/Pods-digiskyTeam1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD56DB606389ECDA4DB297A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-digiskyTeam1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE61ABBB281B4424000DAB55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E8D1D228235562005DCEB4 /* InfoRiegoTableViewController.swift in Sources */,
+				A0E8D1D728236B15005DCEB4 /* AddEditFertilizacionTableViewController.swift in Sources */,
+				A0E8D1D928236CB9005DCEB4 /* Fertilizacion.swift in Sources */,
+				A0E8D1DF28236FEB005DCEB4 /* InfoFertilizacionTableViewController.swift in Sources */,
+				A0E8D1DB28236DA7005DCEB4 /* FertilizacionTableViewController.swift in Sources */,
+				A0E8D1CE28233E7A005DCEB4 /* BusquedaViewController.swift in Sources */,
+				FE3B55BB2822542C0096107E /* SiembraTableViewCell.swift in Sources */,
+				FE07CB6F281FCCCC007856B8 /* RiegoTableViewController.swift in Sources */,
+				FE61ABDB281B4851000DAB55 /* SignUpViewController.swift in Sources */,
+				FE3B55BF282254730096107E /* AddEditSiembraTableViewController.swift in Sources */,
+				FE3B55C12822549F0096107E /* Siembra.swift in Sources */,
+				A0E8D1D0282349AD005DCEB4 /* InfoTableViewCell.swift in Sources */,
+				FE3B55B92822538A0096107E /* SiembraTableViewController.swift in Sources */,
+				FE61ABC7281B4424000DAB55 /* ViewController.swift in Sources */,
+				FE61ABE5281BAE53000DAB55 /* Information.swift in Sources */,
+				A0E8D1D428236535005DCEB4 /* InfoSiembraTableViewController.swift in Sources */,
+				FE61ABD7281B4825000DAB55 /* WelcomeViewController.swift in Sources */,
+				FE07CB73281FCDFD007856B8 /* RiegoTableViewCell.swift in Sources */,
+				A0E8D1DD28236DED005DCEB4 /* FertilizacionTableViewCell.swift in Sources */,
+				FE61ABC3281B4424000DAB55 /* AppDelegate.swift in Sources */,
+				FE07CB71281FCD59007856B8 /* Riego.swift in Sources */,
+				FE07CB67281FCA2B007856B8 /* AddEditRiegoTableViewController.swift in Sources */,
+				FE61ABD9281B4841000DAB55 /* LogInViewController.swift in Sources */,
+				FE0F44C8282390EF007527C1 /* LogOutViewController.swift in Sources */,
+				FE61ABC5281B4424000DAB55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE61ABC8281B4424000DAB55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE61ABC9281B4424000DAB55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE61ABCD281B4426000DAB55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE61ABCE281B4426000DAB55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE61ABD1281B4426000DAB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE61ABD2281B4426000DAB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE61ABD4281B4426000DAB55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA19CDF67BA2615E2559DFD /* Pods-digiskyTeam1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5C68CS9MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = digiskyTeam1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ivso.digiskyTeam1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE61ABD5281B4426000DAB55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924CE449EF7D322B3BC67756 /* Pods-digiskyTeam1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S5C68CS9MA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = digiskyTeam1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ivso.digiskyTeam1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE61ABBA281B4424000DAB55 /* Build configuration list for PBXProject "digiskyTeam1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE61ABD1281B4426000DAB55 /* Debug */,
+				FE61ABD2281B4426000DAB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE61ABD3281B4426000DAB55 /* Build configuration list for PBXNativeTarget "digiskyTeam1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE61ABD4281B4426000DAB55 /* Debug */,
+				FE61ABD5281B4426000DAB55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE61ABB7281B4424000DAB55 /* Project object */;
+}
